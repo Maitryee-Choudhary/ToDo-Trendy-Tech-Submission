@@ -1,0 +1,26 @@
+.addTodos_class 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+input{
+    width:25%;
+    padding: 2px 5px 2px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline:yellow;
+    border-color: white;
+}
+.add_btn
+{
+    height:40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:white;
+    background-color:#28B463;
+    outline: none;
+    cursor:pointer;
+    border-color: white;
+}

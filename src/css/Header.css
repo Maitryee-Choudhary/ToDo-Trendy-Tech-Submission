@@ -1,0 +1,13 @@
+*{
+    margin:0;
+}
+
+.header_div{
+    text-align:center;
+    background-color: #F4D03F ;
+}
+h1{
+    font-size:2.3em;
+    color:#A93226;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

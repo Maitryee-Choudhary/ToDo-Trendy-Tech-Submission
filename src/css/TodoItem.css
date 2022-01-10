@@ -1,0 +1,23 @@
+.card
+{
+    width: -moz-fit-content;
+    width:fit-content;
+    width:18em;
+    margin-bottom: 15px;
+    background-color: #85C1E9;
+    
+}
+.btns
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.btns button
+{
+    border-color:white;
+    border-radius: 50px;
+    outline:none;
+    
+}

@@ -1,0 +1,33 @@
+.status_button
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color:white;
+    background-color:#28B463;
+    outline: none;
+    cursor:pointer;
+    padding: 5px;
+    width: 7%;
+}
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_all_todos
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 900px) {
+    .status_button {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
